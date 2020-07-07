@@ -3,7 +3,7 @@
 
 Pre Alpha, Going Dark.
 
-For Various Lists Go To:
+Google Docs Link:
 https://docs.google.com/spreadsheets/d/1qeL0y0gBOLG_G6IHIn7FeCMRsZrA__nRbB1nwOkvDs4/edit?usp=sharing
 
 
