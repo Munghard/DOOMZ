@@ -22,6 +22,10 @@
 		{
 			"Name": "SunPosition",
 			"Enabled": true
+		},
+		{
+			"Name": "Iliad",
+			"Enabled": true
 		}
 	]
 }
