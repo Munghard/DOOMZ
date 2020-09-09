@@ -26,6 +26,10 @@
 		{
 			"Name": "Iliad",
 			"Enabled": true
+		},
+		{
+			"Name": "IconGenerator",
+			"Enabled": false
 		}
 	]
 }
