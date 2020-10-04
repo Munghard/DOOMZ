@@ -25,7 +25,7 @@
 		},
 		{
 			"Name": "Iliad",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "IconGenerator",
@@ -35,6 +35,16 @@
 			"Name": "HorizonUIPlugin",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8b94d073d32443b497d4a9e8b1e210f7"
+		},
+		{
+			"Name": "Restart",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1bf89025ddf246e3af3c196d0426e0d3"
+		},
+		{
+			"Name": "DonAINavigation",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/81b4bd085c8c41508edfeb160b6ddf62"
 		}
 	],
 	"TargetPlatforms": [
