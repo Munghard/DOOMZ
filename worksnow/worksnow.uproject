@@ -25,7 +25,7 @@
 		},
 		{
 			"Name": "Iliad",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "IconGenerator",
