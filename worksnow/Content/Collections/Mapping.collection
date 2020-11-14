@@ -11,3 +11,4 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Game/RoadSystem.RoadSystem
 /Game/Game/SpawnPoint.SpawnPoint
 /Game/Game/StreetLight_System.StreetLight_System
+/Game/Models/Actors/Lights/ConstructionLight.ConstructionLight
