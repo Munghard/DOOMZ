@@ -12,3 +12,7 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Game/SpawnPoint.SpawnPoint
 /Game/Game/StreetLight_System.StreetLight_System
 /Game/Models/Actors/Lights/ConstructionLight.ConstructionLight
+/Game/Models/Actors/Lights/neonlight_green_Blueprint.neonlight_green_Blueprint
+/Game/Models/Actors/Lights/neonlight_pink_Blueprint.neonlight_pink_Blueprint
+/Game/Models/Actors/Lights/SreetLight.SreetLight
+/Game/Models/Actors/Lights/stripsign_Blueprint.stripsign_Blueprint
