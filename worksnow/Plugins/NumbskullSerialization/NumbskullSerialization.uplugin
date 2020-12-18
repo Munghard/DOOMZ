@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+    "EngineVersion" : "4.26.0",
+	"FriendlyName": "Numbskull Serialization",
+	"Description": "Simple serialization",
+	"Category": "Scripting",
+	"CreatedBy": "James Kelly",
+	"CreatedByURL": "",
+	"DocsURL": "",
+    "MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/4b4c328f1ae344c381d50dfc3fe369f1",
+	"SupportURL": "https://github.com/NumbskullStudios/NumbskullSerialization/issues",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "NumbskullSerialization",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+            "WhitelistPlatforms": ["Win64", "Win32", "Linux", "Mac", "Android", "IOS"]
+		}
+	]
+}

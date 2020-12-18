@@ -52,11 +52,6 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c1abf895ea8c4d658d0c9941459904c0"
 		},
 		{
-			"Name": "NumbskullSerialization",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c2bed233e0774bf38722279c605e8a36"
-		},
-		{
 			"Name": "VictoryBPLibrary",
 			"Enabled": true,
 			"MarketplaceURL": "http://www.ue4code.com"
