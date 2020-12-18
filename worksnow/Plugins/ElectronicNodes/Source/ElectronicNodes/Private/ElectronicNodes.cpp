@@ -11,7 +11,7 @@
 
 void FElectronicNodesModule::StartupModule()
 {
-    TSharedPtr<FENConnectionDrawingPolicyFactory> ENConnectionFactory = MakeShareable(new FENConnectionDrawingPolicyFactory);
+    const TSharedPtr<FENConnectionDrawingPolicyFactory> ENConnectionFactory = MakeShareable(new FENConnectionDrawingPolicyFactory);
     FEdGraphUtilities::RegisterVisualPinConnectionFactory(ENConnectionFactory);
 
     auto const CommandBindings = FModuleManager::LoadModuleChecked< IMainFrameModule >("MainFrame").GetMainFrameCommandBindings();

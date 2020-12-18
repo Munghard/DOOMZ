@@ -5,8 +5,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Modules/ModuleManager.h"
-#include "ElectronicNodesSettings.h"
 
 class FElectronicNodesModule : public IModuleInterface
 {
