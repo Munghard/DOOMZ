@@ -62,6 +62,10 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/Building_Deco/StacheFridgeDoor.StacheFridgeDoor
 /Game/Models/StaticMeshes/Structures/Building_Deco/StacheFridgeDoorRight.StacheFridgeDoorRight
 /Game/Models/StaticMeshes/Structures/Building_Deco/StacheLadder.StacheLadder
+/Game/Models/StaticMeshes/Structures/BuildingPieces/ModularWalls/ModularWalls_doorhole.ModularWalls_doorhole
+/Game/Models/StaticMeshes/Structures/BuildingPieces/ModularWalls/ModularWalls_floor.ModularWalls_floor
+/Game/Models/StaticMeshes/Structures/BuildingPieces/ModularWalls/ModularWalls_stairs.ModularWalls_stairs
+/Game/Models/StaticMeshes/Structures/BuildingPieces/ModularWalls/ModularWalls_wall.ModularWalls_wall
 /Game/Models/StaticMeshes/Structures/Buildings/BusStop.BusStop
 /Game/Models/StaticMeshes/Structures/Buildings/FutureBuildingProp.FutureBuildingProp
 /Game/Models/StaticMeshes/Structures/Buildings/GasPumpArea.GasPumpArea
@@ -81,10 +85,6 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/Clutter/Rubble/Debri1.Debri1
 /Game/Models/StaticMeshes/Structures/Interior_Deco/Matress.Matress
 /Game/Models/StaticMeshes/Structures/Interior_Deco/pillow.pillow
-/Game/Models/StaticMeshes/Structures/ModularWalls/ModularWalls_doorhole.ModularWalls_doorhole
-/Game/Models/StaticMeshes/Structures/ModularWalls/ModularWalls_floor.ModularWalls_floor
-/Game/Models/StaticMeshes/Structures/ModularWalls/ModularWalls_stairs.ModularWalls_stairs
-/Game/Models/StaticMeshes/Structures/ModularWalls/ModularWalls_wall.ModularWalls_wall
 /Game/Models/StaticMeshes/Structures/Panels/HackingPanel_Cube.HackingPanel_Cube
 /Game/Models/StaticMeshes/Structures/Panels/HackingPanel_Cube_002.HackingPanel_Cube_002
 /Game/Models/StaticMeshes/Structures/Scaffolding/WoodenScaffolding.WoodenScaffolding
