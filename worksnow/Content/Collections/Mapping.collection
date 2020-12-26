@@ -88,7 +88,6 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/Panels/HackingPanel_Cube_002.HackingPanel_Cube_002
 /Game/Models/StaticMeshes/Structures/Scaffolding/WoodenScaffolding.WoodenScaffolding
 /Game/Models/StaticMeshes/Structures/Scaffolding/WoodenScaffolding_platform.WoodenScaffolding_platform
-/Game/Models/StaticMeshes/Structures/ScientificDevice/ChemicalContainer/SM_WaterTank.SM_WaterTank
 /Game/Models/StaticMeshes/Structures/ScientificDevice/SM_ScientificDevice04.SM_ScientificDevice04
 /Game/Models/StaticMeshes/Structures/Signs/billboard.billboard
 /Game/Models/StaticMeshes/Structures/Signs/SexSign.SexSign
@@ -110,6 +109,7 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/StreetDeco/SM_FreightContainer_01.SM_FreightContainer_01
 /Game/Models/StaticMeshes/Structures/StreetDeco/SM_PlasticBarrel_01a.SM_PlasticBarrel_01a
 /Game/Models/StaticMeshes/Structures/StreetDeco/SM_Roadblock_01a.SM_Roadblock_01a
+/Game/Models/StaticMeshes/Structures/StreetDeco/SM_WaterTank.SM_WaterTank
 /Game/Models/StaticMeshes/Structures/StreetDeco/streetLight.streetLight
 /Game/Models/StaticMeshes/Structures/StreetDeco/stripsign.stripsign
 /Game/Models/StaticMeshes/Vehicles/sedan/sedan.sedan
