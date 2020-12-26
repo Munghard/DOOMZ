@@ -56,6 +56,7 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Plants/Vines/SM_Vines_07.SM_Vines_07
 /Game/Models/StaticMeshes/Plants/Vines/SM_Vines_08.SM_Vines_08
 /Game/Models/StaticMeshes/Structures/Building_Deco/deco_windows_airconditioning.deco_windows_airconditioning
+/Game/Models/StaticMeshes/Structures/Building_Deco/SM_ScientificDevice04.SM_ScientificDevice04
 /Game/Models/StaticMeshes/Structures/Building_Deco/SM_Slums_Trashbag.SM_Slums_Trashbag
 /Game/Models/StaticMeshes/Structures/Building_Deco/StacheDoor.StacheDoor
 /Game/Models/StaticMeshes/Structures/Building_Deco/StacheFridgeDoor.StacheFridgeDoor
@@ -88,7 +89,6 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/Panels/HackingPanel_Cube_002.HackingPanel_Cube_002
 /Game/Models/StaticMeshes/Structures/Scaffolding/WoodenScaffolding.WoodenScaffolding
 /Game/Models/StaticMeshes/Structures/Scaffolding/WoodenScaffolding_platform.WoodenScaffolding_platform
-/Game/Models/StaticMeshes/Structures/ScientificDevice/SM_ScientificDevice04.SM_ScientificDevice04
 /Game/Models/StaticMeshes/Structures/Signs/billboard.billboard
 /Game/Models/StaticMeshes/Structures/Signs/SexSign.SexSign
 /Game/Models/StaticMeshes/Structures/Signs/Sign.Sign
