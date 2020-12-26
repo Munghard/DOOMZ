@@ -57,7 +57,6 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Plants/Vines/SM_Vines_08.SM_Vines_08
 /Game/Models/StaticMeshes/Structures/Building_Deco/deco_windows_airconditioning.deco_windows_airconditioning
 /Game/Models/StaticMeshes/Structures/Building_Deco/SM_ScientificDevice04.SM_ScientificDevice04
-/Game/Models/StaticMeshes/Structures/Building_Deco/SM_Slums_Trashbag.SM_Slums_Trashbag
 /Game/Models/StaticMeshes/Structures/Building_Deco/StacheFridgeDoor.StacheFridgeDoor
 /Game/Models/StaticMeshes/Structures/Building_Deco/StacheFridgeDoorRight.StacheFridgeDoorRight
 /Game/Models/StaticMeshes/Structures/Building_Deco/StacheLadder.StacheLadder
@@ -82,6 +81,7 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/Clutter/Boxes/SM_Boxes_04a.SM_Boxes_04a
 /Game/Models/StaticMeshes/Structures/Clutter/Boxes/SM_Crate_Base_01a.SM_Crate_Base_01a
 /Game/Models/StaticMeshes/Structures/Clutter/Boxes/SM_Crate_Lid_01a.SM_Crate_Lid_01a
+/Game/Models/StaticMeshes/Structures/Clutter/Garbage/SM_Slums_Trashbag.SM_Slums_Trashbag
 /Game/Models/StaticMeshes/Structures/Clutter/Rubble/Debri1.Debri1
 /Game/Models/StaticMeshes/Structures/Interior_Deco/Matress.Matress
 /Game/Models/StaticMeshes/Structures/Interior_Deco/pillow.pillow
