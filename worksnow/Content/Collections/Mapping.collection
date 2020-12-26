@@ -45,10 +45,6 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Items/fridge.fridge
 /Game/Models/StaticMeshes/Items/SM_CordWrap_01a.SM_CordWrap_01a
 /Game/Models/StaticMeshes/Items/SM_propanetank_02.SM_propanetank_02
-/Game/Models/StaticMeshes/ModularWalls/ModularWalls_doorhole.ModularWalls_doorhole
-/Game/Models/StaticMeshes/ModularWalls/ModularWalls_floor.ModularWalls_floor
-/Game/Models/StaticMeshes/ModularWalls/ModularWalls_stairs.ModularWalls_stairs
-/Game/Models/StaticMeshes/ModularWalls/ModularWalls_wall.ModularWalls_wall
 /Game/Models/StaticMeshes/Plants/Bush/SM_BushA_01.SM_BushA_01
 /Game/Models/StaticMeshes/Plants/Bush/SM_BushA_02.SM_BushA_02
 /Game/Models/StaticMeshes/Plants/GroundCover/SM_Clover_04.SM_Clover_04
@@ -72,6 +68,10 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/house2_whole.house2_whole
 /Game/Models/StaticMeshes/Structures/little2storybuilding.little2storybuilding
 /Game/Models/StaticMeshes/Structures/Matress.Matress
+/Game/Models/StaticMeshes/Structures/ModularWalls/ModularWalls_doorhole.ModularWalls_doorhole
+/Game/Models/StaticMeshes/Structures/ModularWalls/ModularWalls_floor.ModularWalls_floor
+/Game/Models/StaticMeshes/Structures/ModularWalls/ModularWalls_stairs.ModularWalls_stairs
+/Game/Models/StaticMeshes/Structures/ModularWalls/ModularWalls_wall.ModularWalls_wall
 /Game/Models/StaticMeshes/Structures/NewspaperBox.NewspaperBox
 /Game/Models/StaticMeshes/Structures/PalisadeWall.PalisadeWall
 /Game/Models/StaticMeshes/Structures/Pallet.Pallet
