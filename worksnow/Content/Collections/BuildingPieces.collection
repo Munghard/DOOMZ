@@ -3,6 +3,11 @@ Type:Static
 Guid:3FCDDAAE-400F-1F10-DD95-9CBF49D67202
 ParentGuid:00000000-0000-0000-0000-000000000000
 
+/Game/Models/StaticMeshes/Structures/Building_Deco/deco_fire_escape_balcony.deco_fire_escape_balcony
+/Game/Models/StaticMeshes/Structures/Building_Deco/deco_fire_escape_ladder.deco_fire_escape_ladder
+/Game/Models/StaticMeshes/Structures/Building_Deco/deco_fire_escape_ladder_top.deco_fire_escape_ladder_top
+/Game/Models/StaticMeshes/Structures/Building_Deco/deco_upper_ornament_flower_a.deco_upper_ornament_flower_a
+/Game/Models/StaticMeshes/Structures/Building_Deco/deco_upper_ornament_flower_b.deco_upper_ornament_flower_b
 /Game/Models/StaticMeshes/Structures/Building_Deco/deco_windows_panel_b.deco_windows_panel_b
 /Game/Models/StaticMeshes/Structures/Building_Deco/DupedAirConditioner.DupedAirConditioner
 /Game/Models/StaticMeshes/Structures/Floors/plane_ground_4x4.plane_ground_4x4
@@ -27,11 +32,6 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_b_l_3x2.upper_brick_wndw_b_l_3x2
 /Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_l_2x2.upper_brick_wndw_c_l_2x2
 /Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_wndw_c_l_3x2.upper_brick_wndw_c_l_3x2
-/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_fire_escape_balcony.deco_fire_escape_balcony
-/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_fire_escape_ladder.deco_fire_escape_ladder
-/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_fire_escape_ladder_top.deco_fire_escape_ladder_top
-/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_ornament_flower_a.deco_upper_ornament_flower_a
-/Game/ModularBuildingSet/Meshes/Upper_Deco/deco_upper_ornament_flower_b.deco_upper_ornament_flower_b
 /Game/ScienceLab/Meshes/Rooms/Doors/SM_Door10.SM_Door10
 /Game/ScienceLab/Meshes/Rooms/Doors/SM_Doorjamb05.SM_Doorjamb05
 /Game/ScienceLab/Meshes/Rooms/Doors/SM_LabDoor01.SM_LabDoor01
