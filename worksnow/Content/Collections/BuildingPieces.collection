@@ -3,11 +3,11 @@ Type:Static
 Guid:3FCDDAAE-400F-1F10-DD95-9CBF49D67202
 ParentGuid:00000000-0000-0000-0000-000000000000
 
+/Game/Models/StaticMeshes/Structures/Building_Deco/deco_windows_panel_b.deco_windows_panel_b
+/Game/Models/StaticMeshes/Structures/Building_Deco/DupedAirConditioner.DupedAirConditioner
 /Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1_top.beam_pillar_metal_1_top
 /Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x2.beam_pillar_metal_1x2
 /Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x2_tiling.beam_pillar_metal_1x2_tiling
-/Game/ModularBuildingSet/Meshes/Building_Deco/deco_windows_airconditioning.deco_windows_airconditioning
-/Game/ModularBuildingSet/Meshes/Building_Deco/deco_windows_panel_b.deco_windows_panel_b
 /Game/ModularBuildingSet/Meshes/Store_fronts/store_front_door_4x1_a.store_front_door_4x1_a
 /Game/ModularBuildingSet/Meshes/Store_fronts/store_front_shutters_4x1_a.store_front_shutters_4x1_a
 /Game/ModularBuildingSet/Meshes/Upper_Brick_Wndws/upper_brick_clmn_1x2.upper_brick_clmn_1x2
