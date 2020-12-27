@@ -56,6 +56,8 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Plants/Vines/SM_Vines_07.SM_Vines_07
 /Game/Models/StaticMeshes/Plants/Vines/SM_Vines_08.SM_Vines_08
 /Game/Models/StaticMeshes/Structures/Building_Deco/deco_windows_airconditioning.deco_windows_airconditioning
+/Game/Models/StaticMeshes/Structures/Building_Deco/SM_farm_01.SM_farm_01
+/Game/Models/StaticMeshes/Structures/Building_Deco/SM_farm_02.SM_farm_02
 /Game/Models/StaticMeshes/Structures/Building_Deco/SM_ScientificDevice04.SM_ScientificDevice04
 /Game/Models/StaticMeshes/Structures/Building_Deco/StacheFridgeDoor.StacheFridgeDoor
 /Game/Models/StaticMeshes/Structures/Building_Deco/StacheFridgeDoorRight.StacheFridgeDoorRight
@@ -66,6 +68,7 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/BuildingPieces/BigConcrete/SM_concrete_piece_04.SM_concrete_piece_04
 /Game/Models/StaticMeshes/Structures/BuildingPieces/BigConcrete/SM_concrete_piece_05.SM_concrete_piece_05
 /Game/Models/StaticMeshes/Structures/BuildingPieces/BigConcrete/SM_concrete_piece_06.SM_concrete_piece_06
+/Game/Models/StaticMeshes/Structures/BuildingPieces/BigConcrete/SM_concrete_slab_01.SM_concrete_slab_01
 /Game/Models/StaticMeshes/Structures/BuildingPieces/BigConcrete/SM_conrete_column_01.SM_conrete_column_01
 /Game/Models/StaticMeshes/Structures/BuildingPieces/BigConcrete/SM_conrete_column_02.SM_conrete_column_02
 /Game/Models/StaticMeshes/Structures/BuildingPieces/CeilingRoof/SM_conrete_top_01.SM_conrete_top_01
@@ -144,6 +147,7 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/StreetDeco/SM_Dumpster.SM_Dumpster
 /Game/Models/StaticMeshes/Structures/StreetDeco/SM_FreightContainer_01.SM_FreightContainer_01
 /Game/Models/StaticMeshes/Structures/StreetDeco/SM_PlasticBarrel_01a.SM_PlasticBarrel_01a
+/Game/Models/StaticMeshes/Structures/StreetDeco/SM_rails_pile_01.SM_rails_pile_01
 /Game/Models/StaticMeshes/Structures/StreetDeco/SM_Roadblock_01a.SM_Roadblock_01a
 /Game/Models/StaticMeshes/Structures/StreetDeco/SM_WaterTank.SM_WaterTank
 /Game/Models/StaticMeshes/Structures/StreetDeco/streetLight.streetLight
@@ -154,7 +158,3 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Vehicles/spaceship2.spaceship2
 /Game/Models/StaticMeshes/Vehicles/van/van.van
 /Game/Particles/BlackSmoke_System.BlackSmoke_System
-/Game/Trainyard/Meshes/Props/SM_concrete_slab_01.SM_concrete_slab_01
-/Game/Trainyard/Meshes/Props/SM_farm_01.SM_farm_01
-/Game/Trainyard/Meshes/Props/SM_farm_02.SM_farm_02
-/Game/Trainyard/Meshes/Rails/SM_rails_pile_01.SM_rails_pile_01
