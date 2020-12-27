@@ -148,12 +148,12 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/StreetDeco/SM_WaterTank.SM_WaterTank
 /Game/Models/StaticMeshes/Structures/StreetDeco/streetLight.streetLight
 /Game/Models/StaticMeshes/Structures/StreetDeco/stripsign.stripsign
+/Game/Models/StaticMeshes/Structures/Walls/SM_concrete_fence_01.SM_concrete_fence_01
 /Game/Models/StaticMeshes/Vehicles/sedan/sedan.sedan
 /Game/Models/StaticMeshes/Vehicles/spaceship.spaceship
 /Game/Models/StaticMeshes/Vehicles/spaceship2.spaceship2
 /Game/Models/StaticMeshes/Vehicles/van/van.van
 /Game/Particles/BlackSmoke_System.BlackSmoke_System
-/Game/Trainyard/Meshes/Concrete_Fences/SM_concrete_fence_01.SM_concrete_fence_01
 /Game/Trainyard/Meshes/Props/SM_concrete_slab_01.SM_concrete_slab_01
 /Game/Trainyard/Meshes/Props/SM_farm_01.SM_farm_01
 /Game/Trainyard/Meshes/Props/SM_farm_02.SM_farm_02
