@@ -26,9 +26,9 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/BuildingPieces/ModularWalls/BrickWalls/upper_brick_wndw_b_l_3x2.upper_brick_wndw_b_l_3x2
 /Game/Models/StaticMeshes/Structures/BuildingPieces/ModularWalls/BrickWalls/upper_brick_wndw_c_l_2x2.upper_brick_wndw_c_l_2x2
 /Game/Models/StaticMeshes/Structures/BuildingPieces/ModularWalls/BrickWalls/upper_brick_wndw_c_l_3x2.upper_brick_wndw_c_l_3x2
-/Game/Models/StaticMeshes/Structures/BuildingPieces/Walls/SM_GlassWall01.SM_GlassWall01
-/Game/Models/StaticMeshes/Structures/BuildingPieces/Walls/SM_GlassWall02.SM_GlassWall02
-/Game/Models/StaticMeshes/Structures/BuildingPieces/Walls/SM_GlassWall03.SM_GlassWall03
+/Game/Models/StaticMeshes/Structures/BuildingPieces/ModularWalls/SM_GlassWall01.SM_GlassWall01
+/Game/Models/StaticMeshes/Structures/BuildingPieces/ModularWalls/SM_GlassWall02.SM_GlassWall02
+/Game/Models/StaticMeshes/Structures/BuildingPieces/ModularWalls/SM_GlassWall03.SM_GlassWall03
 /Game/Models/StaticMeshes/Structures/Doors/SM_Door10.SM_Door10
 /Game/Models/StaticMeshes/Structures/Doors/SM_Doorjamb05.SM_Doorjamb05
 /Game/Models/StaticMeshes/Structures/Doors/SM_LabDoor01.SM_LabDoor01
