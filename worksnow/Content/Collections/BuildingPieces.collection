@@ -3,6 +3,9 @@ Type:Static
 Guid:3FCDDAAE-400F-1F10-DD95-9CBF49D67202
 ParentGuid:00000000-0000-0000-0000-000000000000
 
+/Game/Models/StaticMeshes/Structures/Building_Deco/beam_pillar_metal_1_top.beam_pillar_metal_1_top
+/Game/Models/StaticMeshes/Structures/Building_Deco/beam_pillar_metal_1x2.beam_pillar_metal_1x2
+/Game/Models/StaticMeshes/Structures/Building_Deco/beam_pillar_metal_1x2_tiling.beam_pillar_metal_1x2_tiling
 /Game/Models/StaticMeshes/Structures/Building_Deco/deco_fire_escape_balcony.deco_fire_escape_balcony
 /Game/Models/StaticMeshes/Structures/Building_Deco/deco_fire_escape_ladder.deco_fire_escape_ladder
 /Game/Models/StaticMeshes/Structures/Building_Deco/deco_fire_escape_ladder_top.deco_fire_escape_ladder_top
@@ -29,9 +32,6 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/Upper_Roof_Trims/beam_upper_roof_trim_a_cnr_4x4.beam_upper_roof_trim_a_cnr_4x4
 /Game/Models/StaticMeshes/Structures/Upper_Roof_Trims/beam_upper_roof_trim_end_l.beam_upper_roof_trim_end_l
 /Game/Models/StaticMeshes/Structures/Upper_Roof_Trims/beam_upper_roof_trim_end_r.beam_upper_roof_trim_end_r
-/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1_top.beam_pillar_metal_1_top
-/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x2.beam_pillar_metal_1x2
-/Game/ModularBuildingSet/Meshes/Beams_Pillars/beam_pillar_metal_1x2_tiling.beam_pillar_metal_1x2_tiling
 /Game/ScienceLab/Meshes/Rooms/Doors/SM_Door10.SM_Door10
 /Game/ScienceLab/Meshes/Rooms/Doors/SM_Doorjamb05.SM_Doorjamb05
 /Game/ScienceLab/Meshes/Rooms/Doors/SM_LabDoor01.SM_LabDoor01
