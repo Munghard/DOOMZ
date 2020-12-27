@@ -94,7 +94,7 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/Upper_Roof_Trims/beam_upper_roof_trim_a_cnr_4x4.beam_upper_roof_trim_a_cnr_4x4
 /Game/Models/StaticMeshes/Structures/Upper_Roof_Trims/beam_upper_roof_trim_end_l.beam_upper_roof_trim_end_l
 /Game/Models/StaticMeshes/Structures/Upper_Roof_Trims/beam_upper_roof_trim_end_r.beam_upper_roof_trim_end_r
-/Game/Trainyard/Meshes/Concrete_Fences/SM_concrete_fence_01.SM_concrete_fence_01
+/Game/Models/StaticMeshes/Structures/Walls/SM_concrete_fence_01.SM_concrete_fence_01
 /Game/Trainyard/Meshes/Props/SM_concrete_slab_01.SM_concrete_slab_01
 /Game/Trainyard/Meshes/Props/SM_farm_01.SM_farm_01
 /Game/Trainyard/Meshes/Props/SM_farm_02.SM_farm_02
