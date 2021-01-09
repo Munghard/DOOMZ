@@ -56,6 +56,7 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Plants/Vines/SM_Vines_07.SM_Vines_07
 /Game/Models/StaticMeshes/Plants/Vines/SM_Vines_08.SM_Vines_08
 /Game/Models/StaticMeshes/Structures/Building_Deco/deco_windows_airconditioning.deco_windows_airconditioning
+/Game/Models/StaticMeshes/Structures/Building_Deco/ELECTRICBOX_LP.ELECTRICBOX_LP
 /Game/Models/StaticMeshes/Structures/Building_Deco/SM_farm_01.SM_farm_01
 /Game/Models/StaticMeshes/Structures/Building_Deco/SM_farm_02.SM_farm_02
 /Game/Models/StaticMeshes/Structures/Building_Deco/SM_ScientificDevice04.SM_ScientificDevice04
@@ -136,7 +137,6 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 /Game/Models/StaticMeshes/Structures/Store_Signs/sign_store_broken_d.sign_store_broken_d
 /Game/Models/StaticMeshes/Structures/Store_Signs/sign_store_c.sign_store_c
 /Game/Models/StaticMeshes/Structures/Store_Signs/sign_store_intact_d.sign_store_intact_d
-/Game/Models/StaticMeshes/Structures/StreetDeco/ELECTRICBOX_LP.ELECTRICBOX_LP
 /Game/Models/StaticMeshes/Structures/StreetDeco/FireHydrant.FireHydrant
 /Game/Models/StaticMeshes/Structures/StreetDeco/NewspaperBox.NewspaperBox
 /Game/Models/StaticMeshes/Structures/StreetDeco/Pallet.Pallet
