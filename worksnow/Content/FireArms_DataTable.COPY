@@ -1,9 +1,0 @@
-Begin Object Class=/Script/Engine.DataTable Name="FireArms_DataTable"
-   Begin Object Class=/Script/Engine.AssetImportData Name="AssetImportData"
-   End Object
-   Begin Object Name="AssetImportData"
-   End Object
-   RowStruct=UserDefinedStruct'"/Game/Game/FireArm_Struct.FireArm_Struct"'
-   AssetImportData=AssetImportData'"AssetImportData"'
-   RowStructName="FireArm_Struct"
-End Object

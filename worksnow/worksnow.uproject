@@ -20,10 +20,6 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2f6439c2f9584f49809d9b13b16c2ba4"
 		},
 		{
-			"Name": "SunPosition",
-			"Enabled": true
-		},
-		{
 			"Name": "Iliad",
 			"Enabled": false
 		},
@@ -58,7 +54,7 @@
 		},
 		{
 			"Name": "BlockoutToolsPlugin",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/d337b97aca8947a893526964e179acfd"
 		},
 		{
@@ -70,9 +66,10 @@
 			"Name": "ElectronicNodes",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5cb2a394d0c04e73891762be4cbd7216"
+		},
+		{
+			"Name": "SunPosition",
+			"Enabled": true
 		}
-	],
-	"TargetPlatforms": [
-		"WindowsNoEditor"
 	]
 }
