@@ -2,9 +2,14 @@
 
 #pragma once
 
+#include "ItemObject_Base.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Item_Base.generated.h"
+
+////////////////////////////////////////////////////////////////////
+//ENUMS
+////////////////////////////////////////////////////////////////////
 
 UENUM(BlueprintType)
 enum class E_FireModes : uint8 {
@@ -114,14 +119,180 @@ enum class E_AmmoTypes : uint8 {
 	LASER = 14     UMETA(DisplayName = "Laser"),
 }; // not sure if we are even using this still but if so put in firearmbase too
 
+////////////////////////////////////////////////////////////////////
+//STRUCTS
+////////////////////////////////////////////////////////////////////
+
+USTRUCT(BlueprintType)
+struct FS_GunList
+{
+	GENERATED_USTRUCT_BODY();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ItemInfo")
+		class AFirearm_Base* FirearmClass;
+};
+
+USTRUCT(BlueprintType)
+struct FS_ItemList
+{
+	GENERATED_USTRUCT_BODY();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ItemInfo")
+		class AItem_Base* ItemClass;
+};
+
+USTRUCT(BlueprintType)
+struct FS_Interactable
+{
+	GENERATED_USTRUCT_BODY();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		bool IsOn;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		bool IsOpen;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		bool IsLocked;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		bool RequiresPower;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		bool HasPower;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		bool RequiresTrigger;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		bool HasBeenTriggered;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		bool RequiresKey;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		bool HasKey;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		bool ConsumeKey;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		bool HasExternalSwitch;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		bool RequiresPassword;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		FString Password;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		TArray <class AStaticInteractable_Base*> TriggerRecievers;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		TArray <class AStaticInteractable_Base*> TriggerSenders;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InteractableInfo")
+		TArray <class AItem_Base*> Keys;
+};
+
+USTRUCT(BlueprintType)
+struct FS_ContainerItem
+{
+	GENERATED_USTRUCT_BODY();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InventoryInfo")
+		int64 Rows;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InventoryInfo")
+		int64 Columns;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "InventoryInfo")
+		TArray <class UItemObject_Base*> ItemObjectArray;
+};
+
 USTRUCT(BlueprintType)
 struct FS_MagazineBase
 {
 	GENERATED_USTRUCT_BODY();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ItemInfo")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MagInfo")
 		FString Name;
 };// consider moving to firearm base c++ class
+
+USTRUCT(BlueprintType)
+struct FS_AmmoStorage
+{
+	GENERATED_USTRUCT_BODY();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo9mmCount;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo9mmMax;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo45acpCount;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo45acpMax;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo12gaPelletCount;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo12gaPelletMax;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo12gaSlugCount;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo12gaSlugMax;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo556Count;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo556Max;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo762x39Max;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo762x54Count;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo762x54Max;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo308Count;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 Ammo308Max;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 GrenadeCount;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 GrenadeMax;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 GrenadeFireCount;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 GrenadeFireMax;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 AnomalyCount;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 AnomalyMax;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 GrenadeRadCount;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoStorage")
+		int64 GrenadeRadMax;
+};// consider moving to playerstate c++ class
 
 USTRUCT(BlueprintType)
 struct FS_AmmoBase
@@ -132,7 +303,7 @@ struct FS_AmmoBase
 		bool IsInBox;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoInfo")
-		TEnumAsByte <E_AmmoTypes> AmmoType;
+		 E_AmmoTypes AmmoType;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoInfo")
 		float Damage;
@@ -148,6 +319,9 @@ struct FS_AmmoBase
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AmmoInfo")
 		float Recoil;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ItemInfo")
+		class AAmmo_Base* AmmoClass;
 };// consider moving to ammo base c++ class
 
 USTRUCT(BlueprintType)
@@ -182,6 +356,63 @@ struct FS_FirearmBase
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
 		TArray< E_FireModes > FireMode;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		E_FirearmTypes FirearmType;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		USkeletalMesh* SkeletonMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		int64 InternalMagSize;
+
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		//UClass* AFirearm_Base(); //FirearmClass;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		class USoundCue* ShootSound;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		class USoundCue* ReloadSound;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		bool Launcher;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		float AdsFOV;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		bool BoltAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		bool BulletInChamber;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		int64 BulletsInMag;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		int64 CurrentAmmoIndex;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		int64 FireModeIndex;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		class AAttachment_Base* ScopeSlot;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		class AAttachment_Base* GripSlot;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		class AAttachment_Base* SuppressorSlot;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		class AAttachment_Base* MagazineSlot;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		class AAttachment_Base* Tac1Slot;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GunInfo")
+		class AAttachment_Base* Tac2Slot;
+
 };// consider moving to firearm base c++ class
 
 USTRUCT(BlueprintType)
@@ -190,7 +421,7 @@ struct FS_SpawnPoint
 	GENERATED_USTRUCT_BODY();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ItemInfo")
-		FString Name;
+		float SpreadValue;
 };// consider moving to spawnpoint base c++ class
 
 USTRUCT(BlueprintType)
