@@ -1,10 +1,10 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "C_ItemBase.h"
+#include "LootPoint_Base.h"
 
 // Sets default values
-AC_ItemBase::AC_ItemBase()
+ALootPoint_Base::ALootPoint_Base()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -12,14 +12,14 @@ AC_ItemBase::AC_ItemBase()
 }
 
 // Called when the game starts or when spawned
-void AC_ItemBase::BeginPlay()
+void ALootPoint_Base::BeginPlay()
 {
 	Super::BeginPlay();
 	
 }
 
 // Called every frame
-void AC_ItemBase::Tick(float DeltaTime)
+void ALootPoint_Base::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
